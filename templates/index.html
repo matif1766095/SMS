@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Studеnt Attеndancе and Coursе Managеmеnt Systеm</title>
+    <link rel="stylesheet" type="text/css" href="/static/css2/bootstrap.css" />
+    <link rel="stylesheet" href="/static/css2/css-circular-prog-bar.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link href="/static/css2/style.css" rel="stylesheet" />
+    <link href="/static/css2/responsive.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/static/css2/css-circular-prog-bar.css" />
+
+    <style>
+      body {
+        background-image: url("static/images/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+      }
+      .half {
+        height: 100vh;
+      }
+      .image-half {
+        background-image: url("static/images/3905531.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      .form-half {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+      }
+      .card {
+        width: 80%;
+        margin: 20px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 image-half half"></div>
+        <div class="col-md-6 form-half half">
+          <p style="font-weight: bold;">ATTENDANCE SYSTEM</p>
+          <div class="card">
+            <h3>Login</h3>
+            <a href="{{ url_for('login') }}" class="btn btn-primary btn-block">Login</a>
+          </div>
+          <div class="card">
+            <h3>Signup</h3>
+            <a href="{{ url_for('signup') }}" class="btn btn-secondary btn-block">Signup</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="/static/js2/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/static/js2/bootstrap.js"></script>
+  </body>
+</html>
